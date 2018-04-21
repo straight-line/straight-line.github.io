@@ -5,7 +5,7 @@ services:
     image: app
     environment:
       - DEBUG=True
-    command: yarn start
+    command: yarn run start
     working_dir: /app
     volumes:
       - .:/app
