@@ -2,5 +2,17 @@
   "name": "app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://straight-line.github.io"
+  "homepage": "https://straight-line.github.io/straightline",
+  "dependencies": {
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "devDependencies": {
+    "gh-pages": "^1.0.0",
+    "react-scripts": "1.0.7"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "deploy": "npm run build && gh-pages -d build"
+  }
 }

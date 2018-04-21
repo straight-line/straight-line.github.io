@@ -1,0 +1,9 @@
+# This is Git's per-user configuration file.
+[core]
+
+[user]
+	name = Straight Line
+	email = remit@ffin.fr
+
+[hub]
+	protocol = ssh
