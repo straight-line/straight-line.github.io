@@ -1,0 +1,15 @@
+version: '3'
+
+services:
+  app:
+    image: app
+    environment:
+      - DEBUG=True
+    command: yarn start
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3000:3000"
+    extra_hosts:
+    - localhost:172.17.0.1
